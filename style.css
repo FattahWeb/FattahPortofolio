@@ -195,19 +195,20 @@ body {
 
 .projek .item {
   position: relative;
-  top: 18rem;
+  top: 14rem;
   text-align: center;
 }
 
 .logo h2 {
   position: relative;
-  font-size: 3rem;
-
+  font-size: 2rem;
+  left: 36rem;
+  top: -5rem;
 }
 
 .projek .item h2 {
   position: relative;
-  font-size: 2rem;
+  font-size: 1rem;
   top: -1rem;
   left: 1rem;
 }
@@ -232,12 +233,11 @@ body {
 
 .container {
   position: relative;
-  top: 45rem;
-  left: 20rem;
+  top: 5rem;
+  left: 2rem;
   height: 450px;
   max-width: 600px;
   margin: auto;
-  background: var(--bg);
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
@@ -245,14 +245,16 @@ body {
 
 .container h2 {
   position: relative;
-  top: -15rem;
+  top: 22rem;
+  left: 8rem;
   text-align: center;
   color: #fff;
 }
 
 .container form {
   position: relative;
-  top: 20rem;
+  left: 9rem;
+  top: 24rem;
   margin-bottom: 20px;
 }
 
@@ -287,6 +289,7 @@ textarea:focus {
   border-radius: 4px;
   cursor: pointer;
   width: 100%;
+  font-size: 1.5rem;
 }
 
 .container button:hover {
@@ -295,17 +298,17 @@ textarea:focus {
 
 .map {
   position: relative;
-  top: 300rem;
-  left: 30rem;
+  top: 2rem;
+  left: 5rem;
   height: 400px;
-  width: 300px;
+  width: 400px;
   border-radius: 4px;
   box-shadow: 0 10px 30px var(--primary);
 }
 
 .contact {
   position: relative;
-  top: 50rem;
+  top: 20rem;
 }
 
 /* Footer */
@@ -363,15 +366,6 @@ footer .credit p {
     overflow-x: hidden; /* Mencegah scroll horizontal */
     margin: 0;
     padding: 0;
-  }
-
-  .navbar-nav {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .navbar-nav a {
-    margin: 0.5rem 0;
   }
 
   .projek {
@@ -502,8 +496,8 @@ footer .credit p {
 
   .container {
     position: relative;
-    top: 200rem;
-    left: 5rem;
+    top: 210rem;
+    left: 4.8rem;
     height: 400px;
     max-width: 600px;
     margin: auto;
@@ -517,7 +511,7 @@ footer .credit p {
     position: relative;
     font-size: 3rem;
     top: 5rem;
-    left: -3rem;
+    left: -100rem;
     text-align: center;
     color: #fff;
   }
@@ -525,7 +519,7 @@ footer .credit p {
   .container form {
     position: relative;
     font-size: 2rem;
-    left: -2remrem;
+    left: -2rem;
     top: 6rem;
     width: 300px;
     margin-bottom: 10px;
@@ -570,8 +564,8 @@ footer .credit p {
   
   .map {
     position: relative;
-    top: 148rem;
-    left: 7rem;
+    top: 160rem;
+    left: 5rem;
     height: 100px;
     width: 300px;
     border-radius: 4px;
@@ -580,12 +574,21 @@ footer .credit p {
 
   .contact {
     position: relative;
-    top: 180rem;
+    top: 185rem;
   }
 
   footer {
     position: relative;
-    top: 250rem;
+    top: 210rem;
+  }
+
+  footer .credit {
+    font-size: 2rem;
+  }
+
+  footer .links {
+    margin-bottom: 1.6rem;
+    font-size: 2rem;
   }
 }
 
@@ -596,7 +599,7 @@ footer .credit p {
 }
 
 /* Mobile Phone */
-@media (max-width: 450px) {
+@media (max-width: 390px) {
   html {
     font-size: 55%;
   }
